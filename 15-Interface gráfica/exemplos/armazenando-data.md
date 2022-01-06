@@ -16,3 +16,6 @@ case $? in
     echo "Erro desconhecido!"
 
 esac
+
+
+![alt text](https://imgbox.com/psU3CRpL)
