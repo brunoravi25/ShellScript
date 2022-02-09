@@ -49,25 +49,32 @@
   * Opções específicas:
     * --column="Nome da coluna": Cria uma nova coluna para a lista
     * --print-column="Número da coluna": Especifica qual coluna será retornada, por padrão APENAS a coluna 1 é retornada, pode ser utilizado o "ALL" para que sejam retornadas todas as colunas.
+
+
 ![--list.png](https://files.fm/thumb_show.php?i=awd6ujhfd)
 
 
 * **--notification**
   * Literalmente apenas um ícone de notificação, sem áreas clicáveis.
   * Opções específicas:
-    * --text="Texto que aparecerá na notificação"    
+    * --text="Texto que aparecerá na notificação"  
+     
 ![notification.png](https://files.fm/thumb_show.php?i=k9z7dta9u)
 
   
 * Message (que é dividida em: Error, Information, Question e Warning)
   * As mensagens --erro, --informação e --warning darão apenas a opção "OK";
   * A messagem --question criará sempre as opções "Sim" ou "Não" 
+
+
 ![question.png](https://files.fm/thumb_show.php?i=vkk3y8pkk)
 
 
 * **--password**
   * Pode ser usada com a opção específica: --username.
   * Irá retornar o usuário e a senha separados por: "|"
+
+
  ![--password.png](https://files.fm/thumb_show.php?i=jxnmukvbp)
 
 
@@ -76,6 +83,8 @@
   * Opções específicas:
     * --percentage='valor': Valor onde o progesso irá iniciar;
     * --auto-close: O progresso será fechado quando chegar em 100%.
+
+
 ![--progress.png](https://files.fm/thumb_show.php?i=aucvhhc2t)
 
 
@@ -84,6 +93,8 @@
   * Opções específicas:
     * --text="Texto ou pergunta"
     * --entry-text="Texto de exemplo na caixa criada"
+
+
 ![--entry.png](https://files.fm/thumb_show.php?i=9gbtrqvfk)
 
 
@@ -94,7 +105,9 @@
     * --font="Fonte": Especifica a fonte do texto;
     * --filename="Nome do arquivo": Especifica o arquivo que será carregado e exibido	
     * OBS: Retornará o valor $?=0 caso o usuário clique no "checkbox" e após clique em "OK" e retornará o valor $?=1 caso o usuário clique em "Cancelar"
-"[--text-info.png](https://files.fm/thumb_show.php?i=nmpjhw89w)
+
+
+![--text-info.png](https://files.fm/thumb_show.php?i=nmpjhw89w)
 
 	
 * **--scale**
@@ -103,6 +116,8 @@
     * --min-value;
     * --max-value;
     * --value (Define o valor inicial)
+
+
 ![--scale.png](https://files.fm/thumb_show.php?i=yurr2ee6m)
 
 
@@ -112,6 +127,8 @@
     * --color="Valor": Setar o valor da cor inicial;
     * --show-palette: Mostra o palette de cores para o usuário selecionar.
     * OBS: Será retornado o valor da cor em rgb.
+
+
 ![--color-selection.png](https://files.fm/thumb_show.php?i=wvncmyt5w)
 
 
