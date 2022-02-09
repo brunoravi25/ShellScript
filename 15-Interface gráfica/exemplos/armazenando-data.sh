@@ -17,4 +17,4 @@ case $? in
 
 esac
 
-![alt text](https://files.fm/thumb_show.php?i=br4zg8u6c)
+![alt text](https://files.fm/f/br4zg8u6c)
