@@ -30,7 +30,7 @@
     * --file-filter="filtro": Possibilita realizar um filtro dos arquivos que irão aparecer na caixa de diálogo;
     * --filename="NOME": Mostra o nome do arquivo a ser selecionado na caixa de diálogo;
    
-![file selection.png](https://files.fm/thumb.php?i=wvncmyt5w)
+![file selection.png](https://files.fm/thumb_show.php?i=3ae5kpkk4)
   
 * **--forms**
   * Cria um formulário.
