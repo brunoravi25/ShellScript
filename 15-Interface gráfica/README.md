@@ -32,6 +32,7 @@
    
 ![file selection.png](https://files.fm/thumb_show.php?i=3ae5kpkk4)
   
+  
 * **--forms**
   * Cria um formulário.
   * Opções específicas:
@@ -39,41 +40,53 @@
     * --add-password="Nome do campo": Cria um input para senhas no formulário;
     * --add-calendar="Nome do campo": Cria um input de calendário no formulário;
     * --separator="Separador na saída": Cria um separador para a saída do formulário, por exemplo: Se o separador for "," e forem criadas as entradas "Nome" e "Senha" a saída será: "nome", "senha" e assim por diante.
-  ![--forms.png](https://files.fm/f/dg926atj4)
+    * 
+ ![--forms.png](https://files.fm/thumb_show.php?i=dg926atj4)
+
 
 * **--list**
   * Cria uma lista de opções que podem ser selecionadas pelo usuário.
   * Opções específicas:
     * --column="Nome da coluna": Cria uma nova coluna para a lista
     * --print-column="Número da coluna": Especifica qual coluna será retornada, por padrão APENAS a coluna 1 é retornada, pode ser utilizado o "ALL" para que sejam retornadas todas as colunas.
-  ![--list.png](https://files.fm/f/awd6ujhfd)
-	
+![--list.png](https://files.fm/thumb_show.php?i=awd6ujhfd)
+
+
 * **--notification**
   * Literalmente apenas um ícone de notificação, sem áreas clicáveis.
   * Opções específicas:
-    * --text="Texto que aparecerá na notificação"
-  ![notification.png](https://files.fm/f/k9z7dta9u)
+    * --text="Texto que aparecerá na notificação"    
+![notification.png](https://files.fm/thumb_show.php?i=k9z7dta9u)
+
   
 * Message (que é dividida em: Error, Information, Question e Warning)
   * As mensagens --erro, --informação e --warning darão apenas a opção "OK";
-  * A messagem --question criará sempre as opções "Sim" ou "Não"
- ![question.png](https://files.fm/f/vkk3y8pkk)
+  * A messagem --question criará sempre as opções "Sim" ou "Não" 
+![question.png](https://files.fm/thumb_show.php?i=vkk3y8pkk)
+
 
 * **--password**
   * Pode ser usada com a opção específica: --username.
   * Irá retornar o usuário e a senha separados por: "|"
- ![pass
+ ![--password.png](https://files.fm/thumb_show.php?i=jxnmukvbp)
+
 
 * **--progress**
   * Apresenta o progresso referente à algo.
   * Opções específicas:
     * --percentage='valor': Valor onde o progesso irá iniciar;
     * --auto-close: O progresso será fechado quando chegar em 100%.
+![--progress.png](https://files.fm/thumb_show.php?i=aucvhhc2t)
+
+
 * **--entry**
   * Caixa de diálogo para inserir textos.
   * Opções específicas:
     * --text="Texto ou pergunta"
     * --entry-text="Texto de exemplo na caixa criada"
+![--entry.png](https://files.fm/thumb_show.php?i=9gbtrqvfk)
+
+
 * **--text-info**
   * Cria um texto com informações, como por exemplo um texto de 'aceitação de termos'.
   * Opções específicas:
@@ -81,6 +94,8 @@
     * --font="Fonte": Especifica a fonte do texto;
     * --filename="Nome do arquivo": Especifica o arquivo que será carregado e exibido	
     * OBS: Retornará o valor $?=0 caso o usuário clique no "checkbox" e após clique em "OK" e retornará o valor $?=1 caso o usuário clique em "Cancelar"
+"[--text-info.png](https://files.fm/thumb_show.php?i=nmpjhw89w)
+
 	
 * **--scale**
   * Cria uma escala onde o usuário pode optar por um valor dentro desta escala.
@@ -88,12 +103,18 @@
     * --min-value;
     * --max-value;
     * --value (Define o valor inicial)
+![--scale.png](https://files.fm/thumb_show.php?i=yurr2ee6m)
+
+
 * **--color-selection**
   * Possibilita a seleção de uma cor para o usuário.
   * Opções específicas:
     * --color="Valor": Setar o valor da cor inicial;
     * --show-palette: Mostra o palette de cores para o usuário selecionar.
     * OBS: Será retornado o valor da cor em rgb.
+![--color-selection.png](https://files.fm/thumb_show.php?i=wvncmyt5w)
+
+
 
 ### Código de saída
 * O zenity gera códigos de saída de acordo com o clique do usuário, cada clique representa um código, são eles:
