@@ -18,7 +18,9 @@
     * --day="Dia": Especifica o dia que estará selecionado por padrão no calendário;
     * --month="Mês": Especifica o mês que estará selecionado por padrão no calendário;
     * --year="Ano": Especifica o ano que estará selecionado por padrão no calendário.
-  ![calendar example.png](https://files.fm/thumb_show.php?i=br4zg8u6c)
+    
+![calendar example.png](https://files.fm/thumb_show.php?i=br4zg8u6c)
+  
   
 * **--file-selection**
   * Nessa caixa de diálogo o usuário poderá selecionar arquivos de um determinado diretórios.
@@ -27,7 +29,8 @@
     * --directory: Possibilita APENAS a seleção de diretórios na caixa de diálogo
     * --file-filter="filtro": Possibilita realizar um filtro dos arquivos que irão aparecer na caixa de diálogo;
     * --filename="NOME": Mostra o nome do arquivo a ser selecionado na caixa de diálogo;
-  ![file selection.png](https://files.fm/f/3ae5kpkk4)
+   
+![file selection.png](https://files.fm/thumb.php?i=wvncmyt5w)
   
 * **--forms**
   * Cria um formulário.
